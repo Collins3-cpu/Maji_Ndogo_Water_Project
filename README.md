@@ -1,7 +1,9 @@
 Project Files Overview
 
 1. Maji Ndogo Water Project (Maji_Ndogo_Water_Project.sql)
+   
 Project Overview
+
 This is a full-cycle SQL data analysis project that simulates a real-world humanitarian data challenge:
 Helping the government and NGO of the fictional country Maji Ndogo solve its severe water access crisis using a database of 60,000+ field survey records.
 Working as a data analyst on President Aziza Naledi’s task force, I used MySQL to clean, explore, and derive actionable insights
