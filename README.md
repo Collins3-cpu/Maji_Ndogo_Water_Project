@@ -10,11 +10,12 @@ This is a full-cycle SQL data analysis project that simulates a real-world human
 Helping the government and NGO of the fictional country Maji Ndogo solve its severe water access crisis using a database of 60,000+ field survey records.
 Working as a data analyst on President Aziza Naledi’s task force, I used MySQL to clean, explore, and derive actionable insights
 from the md_water_services database (tables: location, visits, water_source, well_pollution, employee, etc.).
-The goal was not just to query data, but to transform raw survey results into **prioritized recommendations that would determine where infrastructure upgrades should be made first. **
+The goal was not just to query data, but to transform raw survey results into prioritized recommendations that would determine where infrastructure upgrades should be made first.
 The project scope encompassed both Part 1 (Exploratory Analysis & Data Cleaning) and Part 2 (Honouring Workers, Location Analysis, Queue Behaviour, and Strategic Insights).
 The Story & Business Impact
 Maji Ndogo has 27.6 million citizens relying on wells, rivers, shared taps, and taps in homes.
 Many sources are broken, contaminated, or cause hours-long queues, especially in rural areas (60% of all sources).
+
 
 By systematically analysing the survey data, I uncovered:
 
@@ -31,7 +32,7 @@ By systematically analysing the survey data, I uncovered:
 •	Practical recommendations for infrastructure improvement priorities
 The final insights were compiled into a data-driven story that can be presented directly to decision-makers.
 
-Skills Demonstrated
+Key Skills Demonstrated
 
 •	Data Cleaning & Integrity → Corrected misclassified well pollution records (biological > 0.01 but labelled "Clean"),
  Generated 200+ employee email addresses programmatically, fixed malformed phone numbers with RTRIM()
@@ -57,7 +58,7 @@ c)Hidden contamination:
 
 d)Queue patterns:	             
 
- Finding
+ Key Findings
  
 a)60% of water sources are rural. 
 
@@ -67,7 +68,7 @@ c)26 wells marked "Clean" despite biological contamination.
 
 d)Saturday queues average 2× longer; peak at 06:00 & 17:00–18:00.
 
- Recommendation
+ Recommendations
  
 a)Focus improvement budget on rural infrastructure
 
