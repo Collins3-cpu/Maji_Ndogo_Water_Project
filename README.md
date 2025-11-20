@@ -1,4 +1,4 @@
-📁 Project Files Overview
+Project Files Overview
 1. Maji Ndogo Water Project
 Project Overview
 This is a full-cycle SQL data analysis project that simulates a real-world humanitarian data challenge:
