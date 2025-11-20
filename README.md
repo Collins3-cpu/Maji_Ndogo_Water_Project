@@ -1,6 +1,8 @@
 Project Files Overview
 
 1. Maji Ndogo Water Project (Maji_Ndogo_Water_Project.sql)
+
+Uses the Raw Database File md_water_services.sql that contains the database from which the Analysis queries were made.
    
 Project Overview
 
