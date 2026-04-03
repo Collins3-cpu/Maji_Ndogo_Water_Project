@@ -6,6 +6,7 @@ The project applies end-to-end data science techniques to predict whether a bank
 The goal is to identify key factors influencing customer decisions and build predictive models to support targeted marketing strategies.
 ______________________________________
 Dataset
+https://www.kaggle.com/datasets/neelesh0602/bankcsv
 
 •	Records: 11,162 customers 
 
