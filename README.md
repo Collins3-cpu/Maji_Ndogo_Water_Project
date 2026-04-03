@@ -7,74 +7,121 @@ The goal is to identify key factors influencing customer decisions and build pre
 ______________________________________
 Dataset
 •	Records: 11,162 customers 
+
 •	Features: 17 variables (demographics, financial status, campaign data) 
+
 •	Target Variable: deposit (Yes/No) 
 ________________________________________
 Project Workflow
  1. Data Preparation
-•	Data loading and inspection using Pandas 
+    
+•	Data loading and inspection using Pandas
+
 •	Handling data types and structure 
+
 •	Feature scaling using StandardScaler 
 _______________________________________
  2. Exploratory Data Analysis (EDA)
+
 •	Summary statistics for numerical and categorical features 
+
 •	Visualizations: 
+
 o	Scatter plots (Age vs. Balance) 
+
 o	Histograms (Age distribution) 
+
 o	Box plots (Balance vs. Deposit) 
+
 o	Correlation heat maps 
+
 •	Key insight: Call duration strongly correlates with subscription likelihood 
 ________________________________________
  3. Sampling Techniques
+    
 •	Random sampling (20% subset) 
+
 •	Systematic sampling (every 5th record) 
 ________________________________________
  4. Statistical Analysis
-•	Pearson Correlation Test 
+    
+•	Pearson Correlation Test
+
 o	Duration vs. subscription (r ≈ 0.45, significant) 
+
 •	Chi-Square Test 
+
 o	Job vs. subscription (significant relationship) 
+
 •	One-Sample T-Test 
+
 o	Sample vs. population mean comparison 
 ________________________________________
  5. Regression Models
+    
 •	Simple Linear Regression 
+
 •	Multiple Linear Regression 
+
 Performance:
 •	R² ≈ 0.21 – 0.23 
+
 •	Key predictors: 
+
 o	Call duration (+) 
+
 o	Campaign frequency (-) 
 ________________________________________
  6. Classification Models
+    
 Implemented and compared:
+
 Model	Accuracy
+
 Logistic Regression	72.5%
+
 KNN	72.6% (Best)
+
 Naïve Bayes	71.3%
+
 Decision Tree	66.5%
 
 •	Best Model: K-Nearest Neighbors (KNN) 
+
 •	Evaluated using confusion matrices 
 ________________________________________
  7. Clustering (Unsupervised Learning)
+    
 •	K-Means Clustering 
+
 •	Hierarchical Clustering 
+
 •	PCA used for dimensionality reduction and visualization 
+
  Result: Identified distinct customer segments based on behavior and financial attributes
 ________________________________________
 Tech Stack
+
 •	Programming: Python 
+
 •	Libraries: 
+
 o	Pandas, NumPy (data manipulation) 
+
 o	Matplotlib, Seaborn (visualization) 
+
 o	Scikit-learn (machine learning) 
+
 o	SciPy (statistical analysis) 
 ________________________________________
 Key Insights
+
 •	Call duration is the most influential predictor of subscription 
+
 •	Frequent campaign contacts may reduce likelihood of subscription 
+
 •	Customer segmentation reveals distinct behavioral groups 
+
 •	KNN provides the best classification performance among tested models
 
 
