@@ -1,4 +1,5 @@
-Project Files Overview
+**Project Files Overview**
+
 A) **Smart Banking: Predicting Customer Term Deposit Subscriptions Using Machine Learning**
 This project uses the file Data_Science_Full_Cycle_project.ipynb file.
 The project applies end-to-end data science techniques to predict whether a bank customer will subscribe to a term deposit. Using a real-world banking dataset, the project covers data preprocessing, exploratory analysis, statistical testing, and machine learning modeling.
