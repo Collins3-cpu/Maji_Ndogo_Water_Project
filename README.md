@@ -1,7 +1,84 @@
 Project Files Overview
+A) **Smart Banking: Predicting Customer Term Deposit Subscriptions Using Machine Learning**
+This project uses the file Data_Science_Full_Cycle_project.ipynb file.
+The project applies end-to-end data science techniques to predict whether a bank customer will subscribe to a term deposit. Using a real-world banking dataset, the project covers data preprocessing, exploratory analysis, statistical testing, and machine learning modeling.
+The goal is to identify key factors influencing customer decisions and build predictive models to support targeted marketing strategies.
+______________________________________
+Dataset
+•	Records: 11,162 customers 
+•	Features: 17 variables (demographics, financial status, campaign data) 
+•	Target Variable: deposit (Yes/No) 
+________________________________________
+Project Workflow
+ 1. Data Preparation
+•	Data loading and inspection using Pandas 
+•	Handling data types and structure 
+•	Feature scaling using StandardScaler 
+_______________________________________
+ 2. Exploratory Data Analysis (EDA)
+•	Summary statistics for numerical and categorical features 
+•	Visualizations: 
+o	Scatter plots (Age vs. Balance) 
+o	Histograms (Age distribution) 
+o	Box plots (Balance vs. Deposit) 
+o	Correlation heat maps 
+•	Key insight: Call duration strongly correlates with subscription likelihood 
+________________________________________
+ 3. Sampling Techniques
+•	Random sampling (20% subset) 
+•	Systematic sampling (every 5th record) 
+________________________________________
+ 4. Statistical Analysis
+•	Pearson Correlation Test 
+o	Duration vs. subscription (r ≈ 0.45, significant) 
+•	Chi-Square Test 
+o	Job vs. subscription (significant relationship) 
+•	One-Sample T-Test 
+o	Sample vs. population mean comparison 
+________________________________________
+ 5. Regression Models
+•	Simple Linear Regression 
+•	Multiple Linear Regression 
+Performance:
+•	R² ≈ 0.21 – 0.23 
+•	Key predictors: 
+o	Call duration (+) 
+o	Campaign frequency (-) 
+________________________________________
+ 6. Classification Models
+Implemented and compared:
+Model	Accuracy
+Logistic Regression	72.5%
+KNN	72.6% (Best)
+Naïve Bayes	71.3%
+Decision Tree	66.5%
 
-1. Maji Ndogo Water Project (Maji_Ndogo_Water_Project.sql)
+•	Best Model: K-Nearest Neighbors (KNN) 
+•	Evaluated using confusion matrices 
+________________________________________
+ 7. Clustering (Unsupervised Learning)
+•	K-Means Clustering 
+•	Hierarchical Clustering 
+•	PCA used for dimensionality reduction and visualization 
+ Result: Identified distinct customer segments based on behavior and financial attributes
+________________________________________
+Tech Stack
+•	Programming: Python 
+•	Libraries: 
+o	Pandas, NumPy (data manipulation) 
+o	Matplotlib, Seaborn (visualization) 
+o	Scikit-learn (machine learning) 
+o	SciPy (statistical analysis) 
+________________________________________
+Key Insights
+•	Call duration is the most influential predictor of subscription 
+•	Frequent campaign contacts may reduce likelihood of subscription 
+•	Customer segmentation reveals distinct behavioral groups 
+•	KNN provides the best classification performance among tested models
 
+
+
+B). **Maji Ndogo Water Project (Maji_Ndogo_Water_Project.sql)**
 Uses the Raw Database File md_water_services.sql that contains the database from which the Analysis queries were made.
    
 Project Overview
@@ -80,7 +157,7 @@ d)Consider weekend water tankers or staggered collection schedules
 
 
 
-2. 🔍 Data Cleaning in SQL
+C).  **Data Cleaning in SQL**
 File: Data Cleaning in SQL.sql
 Dataset: National Housing (PortfolioProject.dbo.[National Housing])
 
@@ -98,7 +175,7 @@ Remove duplicates based on key columns.
 
 Drop unused columns (OwnerAddress, PropertyAddress, SaleDate, TaxDistrict).
 
-3. 🦠 COVID Portfolio Project
+D).  **COVID Portfolio Project**
 File: COVID Portfolio Project.sql
 Datasets: CovidDeaths$ and CovidVaccinations$
 
@@ -118,7 +195,7 @@ countries_infection_rate, countries_death_count
 
 Deaths_by_Continents, global_numbers
 
-4. 🔗 Data Correlation in Python
+E) **Data Correlation in Python**
 File: Data Correlation in Python.ipynb
 Dataset: movies.csv
 
@@ -138,13 +215,9 @@ votes vs gross: 0.63
 
 Visuals: Heatmaps, scatter plots.
 
-5. 📊 Power BI Data Visualization
-File: Power Bi Data Visualization..pbip
 
-Description:
-A Power BI report file showcasing interactive data dashboards (dataset referenced in .Report file). Auto-recovery enabled.
 
-6. 🧾 Embu County Business Permit Revenue Analysis
+F). **Embu County Business Permit Revenue Analysis**
 File: Embu County Business Permit Revenue Analysis.ipynb
 
 Objectives:
@@ -177,7 +250,7 @@ Support evidence-based policy on licensing
 
 Guide investment and planning decisions
 
-7. 🚴‍♂️ Bike Sales Analysis Project
+G). **Bike Sales Analysis Project**
 File: Excel Project - Colins.xlsx
 
 Excel Sheets Breakdown:
